@@ -13,7 +13,7 @@ class Cube:
         self.ndot = self.nside * self.nside
         self.ndot_all = self.ndot * self.npanel
         pinout = 18
-        pinout = 12
+        #pinout = 12
         self.cube = Adafruit_NeoPixel(self.ndot_all, pinout, 800000, 5, False, brightness)
         self.cube.begin()
         self.clear()
